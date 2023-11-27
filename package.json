@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha *.test.js"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "knex": "^3.0.1",
     "mocha": "^10.2.0",
     "should": "^13.2.3",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "winston": "^3.11.0"
   }
 }
